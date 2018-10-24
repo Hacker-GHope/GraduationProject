@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24ae97d-3a04-4879-b018-5c328b5c51a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider_anjukeOldHouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58同城/city.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58同城/creat_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spider_58Ershoufang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,62 +18,51 @@
     <session id="1364423736">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="1" />
-          <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="jpg" value="11" />
+          <entry key="md" value="2" />
+          <entry key="py" value="5" />
+          <entry key="sql" value="2" />
           <entry key="安居客二手房信息" value="3" />
           <entry key="豆瓣小组精选" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Image" value="11" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
+          <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="14" />
-          <entry key="md" value="22" />
-          <entry key="py" value="775" />
+          <entry key="md" value="26" />
+          <entry key="py" value="1783" />
+          <entry key="sql" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="22" />
-          <entry key="Python" value="789" />
+          <entry key="Markdown" value="26" />
+          <entry key="Python" value="1797" />
+          <entry key="SQL" value="51" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spider_anjukeOldHouse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-              <folding>
-                <element signature="e#164#175#0" expanded="true" />
-                <marker date="1540296722895" expanded="true" signature="555:1481" ph="..." />
-                <marker date="1540296722895" expanded="true" signature="1510:1701" ph="..." />
-                <marker date="1540296722895" expanded="true" signature="1718:1723" ph="..." />
-                <marker date="1540296722895" expanded="true" signature="1718:1893" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,8 +77,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Spider_anjukeOldHouse.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/58同城/creat_db.sql" />
+        <option value="$PROJECT_DIR$/Spider_58Ershoufang.py" />
       </list>
     </option>
   </component>
@@ -121,6 +114,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\毕业设计\58同城" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\毕业设计\安客居" />
       <recent name="F:\毕业设计" />
@@ -138,7 +134,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Spider_58Ershoufang">
+    <configuration name="Spider_58Ershoufang" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="毕业设计" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider_58Ershoufang.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Spider_anjukeOldHouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="毕业设计" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +177,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Spider_anjukeOldHouse" />
+      <item itemvalue="Python.Spider_58Ershoufang" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Spider_58Ershoufang" />
         <item itemvalue="Python.Spider_anjukeOldHouse" />
       </list>
     </recent_temporary>
@@ -182,20 +204,20 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16644649" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10171731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36107382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36778525" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -205,19 +227,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="56">
-            <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/豆瓣小组精选">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/豆瓣小组精选" />
     <entry file="file://E:/env/Spider/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -235,16 +245,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0a00d9b3404cf45be19c686c0bc622bc', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0a13a006b3ed7ed0a75afc8c5a7e689e', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0a96ef169d822913799147269cbab332', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0abeb7bebcad9ba29b82d860a5dd0bbe', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0abf6a63358570730b442b678bf2fe71', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0acf4f8986c91420c827f5bbe5a4970b', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0ad16b7dbb6bdf1e81b281bc5ced3c8a', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0ad245a789e0deac9a6683e20d96dbbc', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0ade4519d18599a84f5bf39c8d638736', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安居客/images/['0b17e415522e676178daa4d1dd352057', 'w=240&amp;h=180&amp;crop=1'].jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spider_anjukeOldHouse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="358">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58同城/creat_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/58同城/city.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_58Ershoufang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
-            <element signature="e#164#175#0" expanded="true" />
-            <marker date="1540296722895" expanded="true" signature="555:1481" ph="..." />
-            <marker date="1540296722895" expanded="true" signature="1510:1701" ph="..." />
-            <marker date="1540296722895" expanded="true" signature="1718:1723" ph="..." />
-            <marker date="1540296722895" expanded="true" signature="1718:1893" ph="..." />
+            <element signature="e#162#176#0" expanded="true" />
+            <marker date="1540384086156" expanded="true" signature="1978:1997" ph="..." />
+            <marker date="1540384086156" expanded="true" signature="2031:2637" ph="..." />
           </folding>
         </state>
       </provider>
